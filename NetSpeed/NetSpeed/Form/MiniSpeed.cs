@@ -18,6 +18,7 @@ namespace SeeNetSpeed
         public MiniSpeed()
         {
             InitializeComponent();
+
             InitNetworkInterface();
 
         }
