@@ -26,7 +26,7 @@ namespace NetSpeed
                 show.ShowDialog();//DialogResult就是用来判断是否返回父窗体的
                 if (show.DialogResult == DialogResult.OK)
                 {
-                    Application.Run(new NetSpeed()); //在线程中打开主窗体
+                    Application.Run(new MiniSpeed()); //在线程中打开主窗体
                 }
                 mutex.ReleaseMutex();
             }
